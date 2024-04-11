@@ -1,0 +1,12 @@
+{
+	"name": "linkedService1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=bcdr-westuse-primary.database.windows.net;initial catalog=bcdr-westus-db-primary-mk;user id=mkadminuser",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDM0QjVDNjVBLTU4MjctNDNGRC1BMjZELTZEQzVGQjMwMEM4Q19iNDM3NmU2YS0xZDgyLTQ3ZTYtODNhMC1lMmQ1NDhiY2QyMDIiDQp9"
+		}
+	}
+}
