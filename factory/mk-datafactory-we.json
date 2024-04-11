@@ -1,0 +1,9 @@
+{
+	"name": "mk-datafactory-we",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "59332ecf-924a-4df1-96fc-604930091142",
+		"tenantId": "7daf9afd-c618-42eb-a13e-197940d5ace3"
+	}
+}
